@@ -1,4 +1,4 @@
-# react-full-page
+# vue-simple-chart
 一个基于Vue的简版chart组件，参数灵活，带已选和正确选项参数，参数个数不限。
 
 # Install
