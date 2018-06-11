@@ -32,11 +32,13 @@ data () {
 ```
 
 ### methods
+```javascript
 methods: {
   onChartClose() {
     console.log('关闭chart')
   }
 }
+```
 
 # Example
 
