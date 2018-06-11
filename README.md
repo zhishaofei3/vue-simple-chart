@@ -1,5 +1,5 @@
 # react-full-page
-一个基于Vue的简版chart组件，欢迎大家去Issues提出宝贵意见。
+一个基于Vue的简版chart组件，参数灵活，带已选和正确选项参数，参数个数不限。
 
 # Install
 
@@ -20,12 +20,12 @@ import VueSimpleChart from 'vue-simple-chart'
 ```javascript
 data () {
   return {
-    list: [
+    list: [ // 个数不限 no limit
       {name: 'a', val: 1},
-      {name: 'b', val: 2},
-      {name: 'c', val: 3, selected: true},
-      {name: 'd', val: 4, selected: true},
-      {name: 'e', val: 5, correct: true},
+      {name: 'b', val: 28},
+      {name: 'c', val: 36, selected: true},
+      {name: 'd', val: 0, selected: true},
+      {name: 'e', val: 88, correct: true},
     ]
   }
 }
@@ -35,7 +35,7 @@ data () {
 ```javascript
 methods: {
   onChartClose() {
-    console.log('关闭chart')
+    console.log('close chart')
   }
 }
 ```
